@@ -1,0 +1,140 @@
+1.) To remove a record from a table which SQL statement would you use? 
+    Delete
+
+2.) A ___________ Relationship is when each row in one table has only one related row in a second table.
+    One-to-One 
+
+3.) What type of JOIN would I use if I want to return all of the rows
+    from my second table but only matching rows from my first table?
+    Right JOIN
+
+4.) A __________________ is any valid piece of code that is executable by a RDBMS.
+    statement
+
+5.) A ______________ key is when a table has a primary key that's actually 
+    a unique combination of more than one column; it's a multiple-column index.
+    Composite
+
+6.) Which of the following are different versions or 'flavors' of SQL?
+    MySQL, Oracle, SQLite, PostgreSQL
+
+7.) Sequel Pro and MySQL Workbench are two popular ____________.
+    MySQL Graphical User Interfaces or GUIs
+
+8.) A __________________ is a field in a table that serves as the primary key for another table. 
+Although this field must contain unique values in the table for which it serves as a primary key, 
+it does NOT have to contain unique values in the table for which it serves as a foreign key.
+    Foreign Key 
+
+9.) What type of JOIN would I use if I only want to return rows that have matches on my join column in both tables 
+I am joining? (Like using a logical AND statement)
+    Inner join
+
+10.) A _______________ is a subsection of a query that contains at least one 
+keyword and the accompanying information, like fields or tables, to be used with the keyword.
+    Clause
+
+11.) Which statement allows us to add a record to a table?
+    Insert Into 
+
+12.) A ____________ is the content of a single cell.
+    Value 
+
+13.) A __________ is a single category or column in a table.
+    Field 
+
+14.) A __________________ Relationship is when multiple records in one table are associated 
+with multiple records in another table. To make this type of relationship work, 
+we need an associative or joiner (also known as junction) table that holds the 
+primary keys of the two or more tables that have many-to-many relationships.
+    Many to many 
+
+15.) A ___________________ Relationship is when one record in a table can be associated
+ with one or more records in another table.
+    One to many 
+
+16.) A __________ is a collection of records. Each of these should have a primary key 
+and may have a foreign key relating it to another one of these in the database.
+    Table 
+
+17.) Using the LIKE operator with a text wildcard in this
+ clause would return ALL values containing 'orange':
+    Where col like '%orange%'
+
+18.) In order to amend data in a database we would use which SQL statement?
+    Update
+
+19.) If you were wanting to filter data, which clause would you use?
+    Where 
+
+20.) How do we select all rows from the Designer table?
+    Select * from Designer
+
+21.) I can use the _____________ clause to slice my data and analyze different
+ sections by a single metric using an aggregate function.
+    Group by
+
+22.) What does "SQL" stand for?
+    Structured Query Language
+
+23.) Choose all of the statements about the Primary Key of a database table that are correct.
+    There can only be one primary key for a table 
+    There cannot be null values in the primary key column
+    A primary key can consist of multiple columns as long as they are unique combinations
+    The primary key of a table can serve as a foreign key in another table, but it doesn't have to.
+
+24.) Which query returns all items in the Item table sorted from the lowest priced to the highest priced?
+    SELECT * FROM Items ORDER BY Price ASC;
+
+25.) How would we script a SQL query to select Description from the Item table?
+    Select Description from Item 
+
+26.) Which statement is used to extract data from a database?
+    Select 
+
+27.) A ____________ is a single observation or row in a table.
+    Record 
+
+28.) Which query would return only the fields DesignerID and Designer from the Designers table?
+    SELECT DesignerID, Designer FROM Designers;
+
+29.) MySQL is a ____________ ___________ Management System, RDBMS, used to interact with a database.
+    relational database
+
+30.) Using which word allows you to specify that more than one condition must be met in a query?
+    and 
+
+31.) How would you display chairs in the Items table that have a price greater than $50.
+    SELECT * FROM Items WHERE Type = 'Chair' AND Price > 50;
+
+32.) SQL, Structured Query Language, is a _________ _________ that allows you to
+ communicate with databases.
+    computer language 
+
+33.) What type of JOIN would I use if I want to return all of the rows from my first table
+ but only matching rows from my second table?
+    left join 
+
+34.) You are required to update the phone number for only the DesignerID 'SMI01'
+ in the Designer table. Which of these would successfully do that?
+    UPDATE Designer SET PhoneNo = '01224123456' WHERE DesignerID = 'SMI01';
+
+35.) A(n) ___________________ Table maps two or more tables together 
+by referencing the primary keys of each table.
+    Associative, Joiner, and Bridge
+
+36.) If you don’t specify ASC or DESC after a SQL ORDER BY clause, the following is used by default:
+    ASC 
+
+37.) What is the correct order of clauses in a written SQL query?
+    SELECT, FROM, WHERE, ORDER BY
+
+38.) A ________________ is a reserved word that performs an operation.
+    keyword 
+
+39.) Which character returns all of the rows found in a table?
+    *
+
+40.) Using which word allows you to specify that only one 
+of a series of conditions needs to be met in a query filter?
+    or
